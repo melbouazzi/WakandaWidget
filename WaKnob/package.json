@@ -1,0 +1,34 @@
+{
+    "name": "WaKnob",
+    "studioName": "WaKnob",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "WaKnob/css/p1.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/css/p2.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/css/p3.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/css/customize-presets.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/js/knob.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/js/p1.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/js/p2.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/js/p3.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaKnob/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
